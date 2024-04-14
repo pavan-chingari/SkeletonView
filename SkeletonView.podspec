@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "9.0"
   s.tvos.deployment_target = "9.0"
   s.swift_version = "5.0"
-  s.source       = { :git => "https://github.com/Juanpe/SkeletonView.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/pavan-chingari/SkeletonView.git", :tag => s.version.to_s }
   s.source_files  = "SkeletonViewCore/Sources/**/*.{swift,h}"
   s.resource_bundles = {'SkeletonViewPrivacyInfo' => ['Sources/Supporting Files/PrivacyInfo.xcprivacy']}
 end
